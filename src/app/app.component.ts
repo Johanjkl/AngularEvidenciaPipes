@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Pipes';
+  fecha = new Date();
+  moneda = 5500;
+  cadena = "Helloda world"
 }
